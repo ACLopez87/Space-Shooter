@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//When the thing hits the thing it will die
 public class DestroyByContact : MonoBehaviour 
-{
+{ 
 	public GameObject explosion;
 	public GameObject playerExplosion;
 	
