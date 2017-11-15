@@ -56,7 +56,7 @@ public class GameController : MonoBehaviour
 
 			if (gameOver)
 			{
-				restartText.text = "Press 'R' for Restart";	
+				restartText.text = "Salty? Press 'R'";	
 				restart = true;
 				break;		
 			}
@@ -71,12 +71,12 @@ public class GameController : MonoBehaviour
 
 	void UpdateScore ()
 	{
-		scoreText.text = "Score: " + score;
+		scoreText.text = "Scrub Count: " + score;
 	}
 
 	public void GameOver ()
 	{
-		gameOverText.text = "GAME OVER";
+		gameOverText.text = "U R BAD AT THIS GAAAAAME";
 		gameOver = true;
 
 	}
